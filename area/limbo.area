@@ -1,0 +1,179 @@
+#AREADATA
+Name        {None } Doraemon    特別部份~
+Builders    None~
+VNUMs       1 22
+Security    1
+Recall      1001
+End
+
+
+
+#CMOBILES
+#0
+
+
+
+#COBJECTS
+#1
+dummy object~
+廢料~
+a dummy object~
+這個廢料是拿來讀取「不存在」這個世界的東西的。~
+~
+13 0 0
+0~ 0~ 0~ 0~
+0 0 0
+#2
+coin gold~
+一枚金幣~
+a gold coin~
+一枚閃閃發光的金幣(coin)。~
+~
+20 0 1
+1~ 0~ 0~ 0~
+1 0 0
+#3
+coins gold~
+一灘金幣~
+some gold coins~
+一灘閃閃發光的金幣(coins)。~
+~
+20 0 1
+0~ 0~ 0~ 0~
+1 0 0
+#4
+generic potion~
+通用藥水~
+a generic potion~
+地上有一個空白標的通用藥水(generic potion)。~
+~
+10 1 16385
+12~ heal~  ~  ~
+2 0 0
+#10
+corpse~
+%s的屍體~
+corpse of %s~
+%s的屍體(corpse)正躺在地上, 看來是一言不發。~
+~
+23 0 1
+0~ 0~ 0~ 1~
+100 0 0
+#11
+corpse~
+%s的屍體~
+corpse of %s~
+%s的屍體(corpse)正躺在地上, 看來是一言不發。~
+~
+24 0 0
+0~ 0~ 0~ 1~
+100 0 0
+#12
+head food~
+%s的頭顱~
+head of %s~
+%s那可憐的頭殼(head)掉在這裡。~
+~
+19 0 1
+10~ 0~ 0~ 0~
+5 0 0
+#13
+heart food~
+%s的心臟~
+heart of %s~
+%s的心臟(heart)掉在這裡, 好像還在跳動著。~
+~
+19 0 1
+16~ 0~ 0~ 0~
+2 0 0
+#14
+arm food~
+%s的手臂~
+arm of %s~
+%s被砍下來的手臂(arm)掉在這裡。~
+~
+19 0 1
+20~ 0~ 0~ 0~
+5 0 0
+#15
+leg food~
+%s的腳~
+leg of %s~
+%s被砍下來的腳(leg)掉在這裡。~
+~
+19 0 1
+20~ 0~ 0~ 0~
+5 0 0
+#16
+turd~
+一坨大便~
+steaming turd~
+%s那一坨惡臭的大便(turd)引起你鼻子嚴重的抗議。~
+~
+13 0 0
+5~ 0~ 0~ 1~
+1 0 0
+#20
+mushroom food~
+魔法香菇~
+a Magic Mushroom~
+一顆看來蠻好吃的魔法香菇(mushroom)種在地上。~
+~
+19 0 1
+5~ 0~ 0~ 0~
+1 10 0
+#21
+ball light~
+光球~
+a bright ball of light~
+一顆光球(light ball)飄浮在空中。~
+~
+1 0 1
+0~ 0~ -1~ 0~
+1 0 0
+#22
+spring~
+魔法泉水~
+a magical spring~
+魔法泉水(spring)從地底下冒出來。~
+~
+25 64 0
+100000~ 100000~ 0~ 0~
+5000 10 0
+#0
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMDATA
+#2
+特別房間~
+　　這是一間普通的房間。你的檔案可能有部份壞掉了。不過
+沒關係，你在這裡可以用recall出去。
+~
+0 1036 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

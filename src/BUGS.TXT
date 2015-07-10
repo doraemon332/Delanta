@@ -1,0 +1,3 @@
+[*****] BUG: Could not open SOCIALS.TXT for reading.
+[*****] BUG: 讀取技能檔案 SKILLS.TXT 發生障礙。
+[*****] BUG: 讀取技能檔案 SKILLS.TXT 發生障礙。

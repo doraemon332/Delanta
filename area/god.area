@@ -1,0 +1,52 @@
+#AREADATA
+Name        { All } Doraemon      神ソ世界~
+Builders    Doraemon~
+VNUMs       4001 4900
+Security    1
+Recall      1001
+End
+
+
+
+#CMOBILES
+#0
+
+
+
+#COBJECTS
+#0
+
+
+
+#MOBPROGS
+S
+
+
+
+#ROOMDATA
+#4001
+神的房間~
+　這裡是神的房間。
+~
+0 8709 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

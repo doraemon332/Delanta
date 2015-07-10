@@ -1,0 +1,2803 @@
+MAX_SKILL      200
+
+#SKILL
+Name      reserved~
+CName     reserved~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   ~
+End
+
+#SKILL
+Name      acid blast~
+CName     acid blast~
+Class     1
+SplFun    spell_acid_blast~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    acid blast~
+WearOff   !Acid Blast!~
+End
+
+#SKILL
+Name      armor~
+CName     氣之甲冑~
+Class     9
+SplFun    spell_armor~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You feel less protected.~
+End
+
+#SKILL
+Name      bless~
+CName     bless~
+Class     8
+SplFun    spell_bless~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You feel less righteous.~
+End
+
+#SKILL
+Name      blindness~
+CName     blindness~
+Class     9
+SplFun    spell_blindness~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_blindness~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You can see again.~
+End
+
+#SKILL
+Name      breathe water~
+CName     水中呼吸術~
+Class     0
+SplFun    spell_breathe_water~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_breathe_water~
+MinMana   5
+Beats     12
+DamMsg    pained lungs~
+WearOff   You can no longer breathe underwater.~
+End
+
+#SKILL
+Name      burning hands~
+CName     burning hands~
+Class     1
+SplFun    spell_burning_hands~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_burning_hands~
+MinMana   15
+Beats     12
+DamMsg    burning hands~
+WearOff   !Burning Hands!~
+End
+
+#SKILL
+Name      call lightning~
+CName     call lightning~
+Class     8
+SplFun    spell_call_lightning~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    lightning bolt~
+WearOff   !Call Lightning!~
+End
+
+#SKILL
+Name      cause critical~
+CName     cause critical~
+Class     8
+SplFun    spell_cause_critical~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    invocation~
+WearOff   !Cause Critical!~
+End
+
+#SKILL
+Name      cause light~
+CName     cause light~
+Class     8
+SplFun    spell_cause_light~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    invocation~
+WearOff   !Cause Light!~
+End
+
+#SKILL
+Name      cause serious~
+CName     cause serious~
+Class     8
+SplFun    spell_cause_serious~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   17
+Beats     12
+DamMsg    invocation~
+WearOff   !Cause Serious!~
+End
+
+#SKILL
+Name      change sex~
+CName     change sex~
+Class     0
+SplFun    spell_changed_sex~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     0
+DamMsg    ~
+WearOff   Your body feels familiar again.~
+End
+
+#SKILL
+Name      charm person~
+CName     charm person~
+Class     1
+SplFun    spell_charm_person~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_STANDING~
+Gsn       gsn_charm_person~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You feel more self-confident.~
+End
+
+#SKILL
+Name      chill touch~
+CName     chill touch~
+Class     1
+SplFun    spell_chill_touch~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    chilling touch~
+WearOff   You feel less cold.~
+End
+
+#SKILL
+Name      colour spray~
+CName     colour spray~
+Class     1
+SplFun    spell_colour_spray~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    colour spray~
+WearOff   !Colour Spray!~
+End
+
+#SKILL
+Name      cone of silence~
+CName     cone of silence~
+Class     1
+SplFun    spell_cone_of_silence~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   35
+Beats     12
+DamMsg    ~
+WearOff   !Cone of Silence!~
+End
+
+#SKILL
+Name      continual light~
+CName     continual light~
+Class     9
+SplFun    spell_continual_light~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   7
+Beats     12
+DamMsg    ~
+WearOff   !Continual Light!~
+End
+
+#SKILL
+Name      control weather~
+CName     control weather~
+Class     9
+SplFun    spell_control_weather~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   25
+Beats     12
+DamMsg    ~
+WearOff   !Control Weather!~
+End
+
+#SKILL
+Name      create food~
+CName     create food~
+Class     8
+SplFun    spell_create_food~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Create Food!~
+End
+
+#SKILL
+Name      create spring~
+CName     create spring~
+Class     1
+SplFun    spell_create_spring~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   !Create Spring!~
+End
+
+#SKILL
+Name      create water~
+CName     create water~
+Class     8
+SplFun    spell_create_water~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Create Water!~
+End
+
+#SKILL
+Name      cure blindness~
+CName     cure blindness~
+Class     8
+SplFun    spell_cure_blindness~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Cure Blindness!~
+End
+
+#SKILL
+Name      cure critical~
+CName     cure critical~
+Class     8
+SplFun    spell_cure_critical~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   !Cure Critical!~
+End
+
+#SKILL
+Name      cure light~
+CName     cure light~
+Class     8
+SplFun    spell_cure_light~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    ~
+WearOff   !Cure Light!~
+End
+
+#SKILL
+Name      cure poison~
+CName     cure poison~
+Class     8
+SplFun    spell_cure_poison~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Cure Poison!~
+End
+
+#SKILL
+Name      cure serious~
+CName     cure serious~
+Class     8
+SplFun    spell_cure_serious~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    ~
+WearOff   !Cure Serious!~
+End
+
+#SKILL
+Name      curse~
+CName     curse~
+Class     9
+SplFun    spell_curse~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_curse~
+MinMana   20
+Beats     12
+DamMsg    curse~
+WearOff   The curse wears off.~
+End
+
+#SKILL
+Name      destroy cursed~
+CName     destroy cursed~
+Class     8
+SplFun    spell_destroy_cursed~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   !destroy cursed!~
+End
+
+#SKILL
+Name      detect evil~
+CName     detect evil~
+Class     8
+SplFun    spell_detect_evil~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   The red in your vision disappears.~
+End
+
+#SKILL
+Name      detect hidden~
+CName     detect hidden~
+Class     8
+SplFun    spell_detect_hidden~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You feel less aware of your suroundings.~
+End
+
+#SKILL
+Name      detect invis~
+CName     detect invis~
+Class     9
+SplFun    spell_detect_invis~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You no longer see invisible objects.~
+End
+
+#SKILL
+Name      detect magic~
+CName     detect magic~
+Class     9
+SplFun    spell_detect_magic~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   The detect magic wears off.~
+End
+
+#SKILL
+Name      detect poison~
+CName     detect poison~
+Class     8
+SplFun    spell_detect_poison~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Detect Poison!~
+End
+
+#SKILL
+Name      dispel evil~
+CName     dispel evil~
+Class     8
+SplFun    spell_dispel_evil~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    holy fire~
+WearOff   !Dispel Evil!~
+End
+
+#SKILL
+Name      dispel magic~
+CName     dispel magic~
+Class     9
+SplFun    spell_dispel_magic~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     16
+DamMsg    ~
+WearOff   !Dispel Magic!~
+End
+
+#SKILL
+Name      earthquake~
+CName     earthquake~
+Class     8
+SplFun    spell_earthquake~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    earthquake~
+WearOff   !Earthquake!~
+End
+
+#SKILL
+Name      enchant weapon~
+CName     enchant weapon~
+Class     1
+SplFun    spell_enchant_weapon~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   100
+Beats     24
+DamMsg    ~
+WearOff   !Enchant Weapon!~
+End
+
+#SKILL
+Name      energy drain~
+CName     energy drain~
+Class     17
+SplFun    spell_energy_drain~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   35
+Beats     12
+DamMsg    energy drain~
+WearOff   !Energy Drain!~
+End
+
+#SKILL
+Name      exorcise~
+CName     exorcise~
+Class     8
+SplFun    spell_exorcise~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   35
+Beats     12
+DamMsg    ~
+WearOff   !Exorcise!~
+End
+
+#SKILL
+Name      faerie fire~
+CName     faerie fire~
+Class     9
+SplFun    spell_faerie_fire~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    faerie fire~
+WearOff   The pink aura around you fades away.~
+End
+
+#SKILL
+Name      faerie fog~
+CName     faerie fog~
+Class     9
+SplFun    spell_faerie_fog~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   12
+Beats     12
+DamMsg    faerie fog~
+WearOff   !Faerie Fog!~
+End
+
+#SKILL
+Name      fireball~
+CName     fireball~
+Class     1
+SplFun    spell_fireball~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    fireball~
+WearOff   !Fireball!~
+End
+
+#SKILL
+Name      flamestrike~
+CName     flamestrike~
+Class     8
+SplFun    spell_flamestrike~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    flamestrike~
+WearOff   !Flamestrike!~
+End
+
+#SKILL
+Name      flaming shield~
+CName     flaming shield~
+Class     8
+SplFun    spell_flaming~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   100
+Beats     60
+DamMsg    flaming shield~
+WearOff   The flaming shield around you dies out.~
+End
+
+#SKILL
+Name      fly~
+CName     fly~
+Class     9
+SplFun    spell_fly~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   10
+Beats     18
+DamMsg    ~
+WearOff   You slowly float to the ground.~
+End
+
+#SKILL
+Name      gate~
+CName     gate~
+Class     0
+SplFun    spell_gate~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    ~
+WearOff   !Gate!~
+End
+
+#SKILL
+Name      giant strength~
+CName     giant strength~
+Class     1
+SplFun    spell_giant_strength~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You feel weaker.~
+End
+
+#SKILL
+Name      harm~
+CName     harm~
+Class     8
+SplFun    spell_harm~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   35
+Beats     12
+DamMsg    divine power~
+WearOff   !Harm!~
+End
+
+#SKILL
+Name      heal~
+CName     heal~
+Class     8
+SplFun    spell_heal~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    ~
+WearOff   !Heal!~
+End
+
+#SKILL
+Name      identify~
+CName     identify~
+Class     25
+SplFun    spell_identify~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   12
+Beats     24
+DamMsg    ~
+WearOff   !Identify!~
+End
+
+#SKILL
+Name      infravision~
+CName     infravision~
+Class     9
+SplFun    spell_infravision~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     18
+DamMsg    ~
+WearOff   You no longer see in the dark.~
+End
+
+#SKILL
+Name      invis~
+CName     invis~
+Class     17
+SplFun    spell_invis~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       gsn_invis~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You are no longer invisible.~
+End
+
+#SKILL
+Name      know alignment~
+CName     know alignment~
+Class     9
+SplFun    spell_know_alignment~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   9
+Beats     12
+DamMsg    ~
+WearOff   !Know Alignment!~
+End
+
+#SKILL
+Name      lightning bolt~
+CName     lightning bolt~
+Class     1
+SplFun    spell_lightning_bolt~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    lightning bolt~
+WearOff   !Lightning Bolt!~
+End
+
+#SKILL
+Name      locate object~
+CName     locate object~
+Class     9
+SplFun    spell_locate_object~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     18
+DamMsg    ~
+WearOff   !Locate Object!~
+End
+
+#SKILL
+Name      magic missile~
+CName     magic missile~
+Class     1
+SplFun    spell_magic_missile~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    magic missile~
+WearOff   !Magic Missile!~
+End
+
+#SKILL
+Name      mass heal~
+CName     mass heal~
+Class     8
+SplFun    spell_mass_heal~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   50
+Beats     24
+DamMsg    ~
+WearOff   !Mass Heal!~
+End
+
+#SKILL
+Name      mass invis~
+CName     mass invis~
+Class     9
+SplFun    spell_mass_invis~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_mass_invis~
+MinMana   20
+Beats     24
+DamMsg    ~
+WearOff   You are no longer invisible.~
+End
+
+#SKILL
+Name      mute~
+CName     mute~
+Class     8
+SplFun    spell_mute~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_mute~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You are no longer muted.~
+End
+
+#SKILL
+Name      pass door~
+CName     pass door~
+Class     1
+SplFun    spell_pass_door~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You feel solid again.~
+End
+
+#SKILL
+Name      poison~
+CName     poison~
+Class     8
+SplFun    spell_poison~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_STANDING~
+Gsn       gsn_poison~
+MinMana   10
+Beats     12
+DamMsg    burning blood~
+WearOff   You feel less sick.~
+End
+
+#SKILL
+Name      polymorph other~
+CName     polymorph other~
+Class     0
+SplFun    spell_polymorph_other~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     0
+DamMsg    ~
+WearOff   Your body feels familiar again.~
+End
+
+#SKILL
+Name      protection~
+CName     protection~
+Class     8
+SplFun    spell_protection~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You feel less protected.~
+End
+
+#SKILL
+Name      recharge item~
+CName     recharge item~
+Class     1
+SplFun    spell_recharge_item~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   25
+Beats     12
+DamMsg    blunder~
+WearOff   !Recharge Item!~
+End
+
+#SKILL
+Name      refresh~
+CName     refresh~
+Class     9
+SplFun    spell_refresh~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   12
+Beats     18
+DamMsg    refresh~
+WearOff   !Refresh!~
+End
+
+#SKILL
+Name      remove alignment~
+CName     remove alignment~
+Class     1
+SplFun    spell_remove_alignment~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    ~
+WearOff   !Remove Alignment!~
+End
+
+#SKILL
+Name      remove curse~
+CName     remove curse~
+Class     8
+SplFun    spell_remove_curse~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Remove Curse!~
+End
+
+#SKILL
+Name      remove silence~
+CName     remove silence~
+Class     8
+SplFun    spell_remove_silence~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    ~
+WearOff   !Remove Silence!~
+End
+
+#SKILL
+Name      sanctuary~
+CName     sanctuary~
+Class     8
+SplFun    spell_sanctuary~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   75
+Beats     12
+DamMsg    ~
+WearOff   The white aura around your body fades.~
+End
+
+#SKILL
+Name      shield~
+CName     shield~
+Class     1
+SplFun    spell_shield~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   12
+Beats     18
+DamMsg    ~
+WearOff   Your force shield shimmers then fades away.~
+End
+
+#SKILL
+Name      shocking grasp~
+CName     shocking grasp~
+Class     1
+SplFun    spell_shocking_grasp~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    shocking grasp~
+WearOff   !Shocking Grasp!~
+End
+
+#SKILL
+Name      sleep~
+CName     sleep~
+Class     1
+SplFun    spell_sleep~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_STANDING~
+Gsn       gsn_sleep~
+MinMana   15
+Beats     12
+DamMsg    ~
+WearOff   You feel less tired.~
+End
+
+#SKILL
+Name      stone skin~
+CName     stone skin~
+Class     1
+SplFun    spell_stone_skin~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   12
+Beats     18
+DamMsg    ~
+WearOff   Your skin feels soft again.~
+End
+
+#SKILL
+Name      summon~
+CName     summon~
+Class     24
+SplFun    spell_summon~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    ~
+WearOff   !Summon!~
+End
+
+#SKILL
+Name      teleport~
+CName     teleport~
+Class     17
+SplFun    spell_teleport~
+Target    TAR_CHAR_SELF~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   35
+Beats     12
+DamMsg    ~
+WearOff   !Teleport!~
+End
+
+#SKILL
+Name      turn undead~
+CName     turn undead~
+Class     8
+SplFun    spell_turn_undead~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_turn_undead~
+MinMana   10
+Beats     12
+DamMsg    divine exorcism~
+WearOff   !Turn undead!~
+End
+
+#SKILL
+Name      ventriloquate~
+CName     ventriloquate~
+Class     1
+SplFun    spell_ventriloquate~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Ventriloquate!~
+End
+
+#SKILL
+Name      weaken~
+CName     weaken~
+Class     1
+SplFun    spell_weaken~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    weakening spell~
+WearOff   You feel stronger.~
+End
+
+#SKILL
+Name      word of recall~
+CName     word of recall~
+Class     0
+SplFun    spell_word_of_recall~
+Target    TAR_CHAR_SELF~
+MinPos    POS_RESTING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Word of Recall!~
+End
+
+#SKILL
+Name      acid breath~
+CName     acid breath~
+Class     1
+SplFun    spell_acid_breath~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    breath of acid~
+WearOff   !Acid Breath!~
+End
+
+#SKILL
+Name      fire breath~
+CName     fire breath~
+Class     1
+SplFun    spell_fire_breath~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    breath of flame~
+WearOff   !Fire Breath!~
+End
+
+#SKILL
+Name      frost breath~
+CName     frost breath~
+Class     1
+SplFun    spell_frost_breath~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    breath of frost~
+WearOff   !Frost Breath!~
+End
+
+#SKILL
+Name      gas breath~
+CName     gas breath~
+Class     1
+SplFun    spell_gas_breath~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    breath of gas~
+WearOff   !Gas Breath!~
+End
+
+#SKILL
+Name      lightning breath~
+CName     lightning breath~
+Class     1
+SplFun    spell_lightning_breath~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   50
+Beats     12
+DamMsg    breath of lightning~
+WearOff   !Lightning Breath!~
+End
+
+#SKILL
+Name      backstab~
+CName     backstab~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_backstab~
+MinMana   0
+Beats     24
+DamMsg    vicious backstab~
+WearOff   !Backstab!~
+End
+
+#SKILL
+Name      bash door~
+CName     bash door~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_bash~
+MinMana   0
+Beats     24
+DamMsg    powerful bash~
+WearOff   !Bash Door!~
+End
+
+#SKILL
+Name      berserk~
+CName     berserk~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_berserk~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   The bloody haze lifts.~
+End
+
+#SKILL
+Name      circle~
+CName     circle~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_circle~
+MinMana   0
+Beats     24
+DamMsg    sneak attack~
+WearOff   !Circle!~
+End
+
+#SKILL
+Name      disarm~
+CName     disarm~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_disarm~
+MinMana   0
+Beats     24
+DamMsg    ~
+WearOff   !Disarm!~
+End
+
+#SKILL
+Name      dodge~
+CName     dodge~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_dodge~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Dodge!~
+End
+
+#SKILL
+Name      dual~
+CName     dual~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_dual~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Dual!~
+End
+
+#SKILL
+Name      enhanced damage~
+CName     加強傷害~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_enhanced_damage~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Enhanced Damage!~
+End
+
+#SKILL
+Name      hide~
+CName     hide~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_RESTING~
+Gsn       gsn_hide~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   !Hide!~
+End
+
+#SKILL
+Name      kick~
+CName     強力一踢~
+Class     2
+SplFun    spell_null~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_kick~
+MinMana   0
+Beats     8
+DamMsg    用力一踢~
+WearOff   !Kick!~
+End
+
+#SKILL
+Name      parry~
+CName     武器格擋~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_parry~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Parry!~
+End
+
+#SKILL
+Name      peek~
+CName     peek~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_peek~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Peek!~
+End
+
+#SKILL
+Name      pick lock~
+CName     pick lock~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_pick_lock~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   !Pick!~
+End
+
+#SKILL
+Name      poison weapon~
+CName     poison weapon~
+Class     4
+SplFun    spell_null~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       gsn_poison_weapon~
+MinMana   0
+Beats     12
+DamMsg    poisonous concoction~
+WearOff   !Poison Weapon!~
+End
+
+#SKILL
+Name      rescue~
+CName     rescue~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_rescue~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   !Rescue!~
+End
+
+#SKILL
+Name      scrolls~
+CName     朗誦卷軸~
+Class     31
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_scrolls~
+MinMana   0
+Beats     0
+DamMsg    blazing scroll~
+WearOff   !Scrolls!~
+End
+
+#SKILL
+Name      second attack~
+CName     二次攻擊~
+Class     6
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_second_attack~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Second Attack!~
+End
+
+#SKILL
+Name      snare~
+CName     snare~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_snare~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   You are no longer ensnared.~
+End
+
+#SKILL
+Name      sneak~
+CName     sneak~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_sneak~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   (null)~
+End
+
+#SKILL
+Name      staves~
+CName     staves~
+Class     31
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_staves~
+MinMana   0
+Beats     0
+DamMsg    shattered staff~
+WearOff   !Staves!~
+End
+
+#SKILL
+Name      steal~
+CName     steal~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_steal~
+MinMana   0
+Beats     24
+DamMsg    ~
+WearOff   !Steal!~
+End
+
+#SKILL
+Name      third attack~
+CName     三次攻擊~
+Class     2
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_third_attack~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   !Third Attack!~
+End
+
+#SKILL
+Name      untangle~
+CName     untangle~
+Class     4
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_untangle~
+MinMana   0
+Beats     24
+DamMsg    ~
+WearOff   !Untangle!~
+End
+
+#SKILL
+Name      wands~
+CName     wands~
+Class     31
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_wands~
+MinMana   0
+Beats     0
+DamMsg    exploding wand~
+WearOff   !Wands!~
+End
+
+#SKILL
+Name      general purpose~
+CName     general purpose~
+Class     0
+SplFun    spell_general_purpose~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   0
+Beats     12
+DamMsg    general purpose ammo~
+WearOff   !General Purpose Ammo!~
+End
+
+#SKILL
+Name      high explosive~
+CName     high explosive~
+Class     0
+SplFun    spell_high_explosive~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   0
+Beats     12
+DamMsg    high explosive ammo~
+WearOff   !High Explosive Ammo!~
+End
+
+#SKILL
+Name      adrenaline control~
+CName     adrenaline control~
+Class     16
+SplFun    spell_adrenaline_control~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   6
+Beats     12
+DamMsg    ~
+WearOff   The adrenaline rush wears off.~
+End
+
+#SKILL
+Name      agitation~
+CName     agitation~
+Class     16
+SplFun    spell_agitation~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    molecular agitation~
+WearOff   !Agitation!~
+End
+
+#SKILL
+Name      aura sight~
+CName     aura sight~
+Class     16
+SplFun    spell_aura_sight~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   9
+Beats     12
+DamMsg    ~
+WearOff   !Aura Sight!~
+End
+
+#SKILL
+Name      awe~
+CName     awe~
+Class     16
+SplFun    spell_awe~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   35
+Beats     12
+DamMsg    ~
+WearOff   !Awe!~
+End
+
+#SKILL
+Name      ballistic attack~
+CName     ballistic attack~
+Class     16
+SplFun    spell_ballistic_attack~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ballistic attack~
+WearOff   !Ballistic Attack!~
+End
+
+#SKILL
+Name      biofeedback~
+CName     biofeedback~
+Class     16
+SplFun    spell_biofeedback~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   75
+Beats     12
+DamMsg    ~
+WearOff   Your biofeedback is no longer effective.~
+End
+
+#SKILL
+Name      cell adjustment~
+CName     cell adjustment~
+Class     16
+SplFun    spell_cell_adjustment~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   8
+Beats     12
+DamMsg    ~
+WearOff   !Cell Adjustment!~
+End
+
+#SKILL
+Name      chameleon power~
+CName     chameleon power~
+Class     16
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_chameleon~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   !Chameleon Power!~
+End
+
+#SKILL
+Name      combat mind~
+CName     combat mind~
+Class     16
+SplFun    spell_combat_mind~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    ~
+WearOff   Your battle sense has faded.~
+End
+
+#SKILL
+Name      complete healing~
+CName     complete healing~
+Class     16
+SplFun    spell_complete_healing~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   100
+Beats     12
+DamMsg    ~
+WearOff   !Complete Healing!~
+End
+
+#SKILL
+Name      control flames~
+CName     control flames~
+Class     16
+SplFun    spell_control_flames~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    tongue of flame~
+WearOff   !Control Flames!~
+End
+
+#SKILL
+Name      create sound~
+CName     create sound~
+Class     16
+SplFun    spell_create_sound~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   !Create Sound!~
+End
+
+#SKILL
+Name      death field~
+CName     death field~
+Class     16
+SplFun    spell_death_field~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   200
+Beats     18
+DamMsg    field of death~
+WearOff   !Death Field!~
+End
+
+#SKILL
+Name      detonate~
+CName     detonate~
+Class     16
+SplFun    spell_detonate~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   35
+Beats     24
+DamMsg    detonation~
+WearOff   !Detonate!~
+End
+
+#SKILL
+Name      disintegrate~
+CName     disintegrate~
+Class     16
+SplFun    spell_disintegrate~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   150
+Beats     18
+DamMsg    disintegration~
+WearOff   !Disintegrate!~
+End
+
+#SKILL
+Name      displacement~
+CName     displacement~
+Class     16
+SplFun    spell_displacement~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    ~
+WearOff   You are no longer displaced.~
+End
+
+#SKILL
+Name      domination~
+CName     domination~
+Class     16
+SplFun    spell_domination~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_STANDING~
+Gsn       gsn_domination~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You regain control of your body.~
+End
+
+#SKILL
+Name      ectoplasmic form~
+CName     ectoplasmic form~
+Class     16
+SplFun    spell_ectoplasmic_form~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You feel solid again.~
+End
+
+#SKILL
+Name      ego whip~
+CName     ego whip~
+Class     16
+SplFun    spell_ego_whip~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You feel more confident.~
+End
+
+#SKILL
+Name      energy containment~
+CName     energy containment~
+Class     16
+SplFun    spell_energy_containment~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    ~
+WearOff   You no longer absorb energy.~
+End
+
+#SKILL
+Name      enhance armor~
+CName     enhance armor~
+Class     16
+SplFun    spell_enhance_armor~
+Target    TAR_OBJ_INV~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   100
+Beats     24
+DamMsg    ~
+WearOff   !Enhance Armor!~
+End
+
+#SKILL
+Name      enhanced strength~
+CName     enhanced strength~
+Class     16
+SplFun    spell_enhanced_strength~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You no longer feel so HUGE.~
+End
+
+#SKILL
+Name      flesh armor~
+CName     flesh armor~
+Class     16
+SplFun    spell_flesh_armor~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   15
+Beats     12
+DamMsg    ~
+WearOff   Your skin returns to normal.~
+End
+
+#SKILL
+Name      heighten senses~
+CName     heighten senses~
+Class     16
+SplFun    spell_null~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       gsn_heighten~
+MinMana   0
+Beats     0
+DamMsg    ~
+WearOff   Your senses return to normal.~
+End
+
+#SKILL
+Name      inertial barrier~
+CName     inertial barrier~
+Class     16
+SplFun    spell_inertial_barrier~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   40
+Beats     24
+DamMsg    ~
+WearOff   Your inertial barrier dissipates.~
+End
+
+#SKILL
+Name      inflict pain~
+CName     inflict pain~
+Class     16
+SplFun    spell_inflict_pain~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    mindpower~
+WearOff   !Inflict Pain!~
+End
+
+#SKILL
+Name      intellect fortress~
+CName     intellect fortress~
+Class     16
+SplFun    spell_intellect_fortress~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   25
+Beats     24
+DamMsg    ~
+WearOff   Your intellectual fortress crumbles.~
+End
+
+#SKILL
+Name      lend health~
+CName     lend health~
+Class     16
+SplFun    spell_lend_health~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   10
+Beats     12
+DamMsg    ~
+WearOff   !Lend Health!~
+End
+
+#SKILL
+Name      levitation~
+CName     levitation~
+Class     16
+SplFun    spell_levitation~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   10
+Beats     18
+DamMsg    ~
+WearOff   You slowly float to the ground.~
+End
+
+#SKILL
+Name      mental barrier~
+CName     mental barrier~
+Class     16
+SplFun    spell_mental_barrier~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   8
+Beats     12
+DamMsg    ~
+WearOff   Your mental barrier breaks down.~
+End
+
+#SKILL
+Name      mind thrust~
+CName     mind thrust~
+Class     16
+SplFun    spell_mind_thrust~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   8
+Beats     12
+DamMsg    mind thrust~
+WearOff   !Mind Thrust!~
+End
+
+#SKILL
+Name      project force~
+CName     project force~
+Class     16
+SplFun    spell_project_force~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   18
+Beats     12
+DamMsg    projected force~
+WearOff   !Project Force!~
+End
+
+#SKILL
+Name      psionic blast~
+CName     psionic blast~
+Class     16
+SplFun    spell_psionic_blast~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   25
+Beats     12
+DamMsg    psionic blast~
+WearOff   !Psionic Blast!~
+End
+
+#SKILL
+Name      psychic crush~
+CName     psychic crush~
+Class     16
+SplFun    spell_psychic_crush~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   15
+Beats     18
+DamMsg    psychic crush~
+WearOff   !Psychic Crush!~
+End
+
+#SKILL
+Name      psychic drain~
+CName     psychic drain~
+Class     16
+SplFun    spell_psychic_drain~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   You no longer feel drained.~
+End
+
+#SKILL
+Name      psychic healing~
+CName     psychic healing~
+Class     16
+SplFun    spell_psychic_healing~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   20
+Beats     12
+DamMsg    ~
+WearOff   !Psychic Healing!~
+End
+
+#SKILL
+Name      shadow form~
+CName     shadow form~
+Class     16
+SplFun    spell_null~
+Target    TAR_IGNORE~
+MinPos    POS_STANDING~
+Gsn       gsn_shadow~
+MinMana   0
+Beats     12
+DamMsg    ~
+WearOff   You no longer move in the shadows.~
+End
+
+#SKILL
+Name      share strength~
+CName     share strength~
+Class     16
+SplFun    spell_share_strength~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   8
+Beats     12
+DamMsg    ~
+WearOff   You no longer share strength with another.~
+End
+
+#SKILL
+Name      thought shield~
+CName     thought shield~
+Class     16
+SplFun    spell_thought_shield~
+Target    TAR_CHAR_SELF~
+MinPos    POS_STANDING~
+Gsn       none_gsn~
+MinMana   5
+Beats     12
+DamMsg    ~
+WearOff   You no longer feel so protected.~
+End
+
+#SKILL
+Name      ultrablast~
+CName     ultrablast~
+Class     16
+SplFun    spell_ultrablast~
+Target    TAR_IGNORE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   75
+Beats     24
+DamMsg    ultrablast~
+WearOff   !Ultrablast!~
+End
+
+#SKILL
+Name      stake~
+CName     stake~
+Class     31
+SplFun    spell_null~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_stake~
+MinMana   0
+Beats     8
+DamMsg    carefully aimed stake~
+WearOff   !Stake!~
+End
+
+#SKILL
+Name      vampiric bite~
+CName     vampiric bite~
+Class     0
+SplFun    spell_vampiric_bite~
+Target    TAR_CHAR_DEFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       gsn_vampiric_bite~
+MinMana   0
+Beats     0
+DamMsg    vampiric bite~
+WearOff   You feel well fed.~
+End
+
+#SKILL
+Name      smash~
+CName     神之閃電術~
+Class     0
+SplFun    spell_smash~
+Target    TAR_CHAR_OFFENSIVE~
+MinPos    POS_FIGHTING~
+Gsn       none_gsn~
+MinMana   20
+Beats     2
+DamMsg    必殺. 奧義. 閃電技~
+WearOff   !Smash!~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#SKILL
+Name      (null)~
+CName     (null)~
+Class     0
+SplFun    reserved~
+Target    TAR_IGNORE~
+MinPos    POS_DEAD~
+Gsn       none_gsn~
+MinMana   0
+Beats     0
+DamMsg    (null)~
+WearOff   (null)~
+End
+
+#END~
